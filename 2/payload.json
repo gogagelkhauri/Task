@@ -1,0 +1,8 @@
+{
+  "url": "https://homedepot.com",
+  "country": "US",
+  "render": true,
+  "js_snippet": "if(window.__APOLLO_STATE__){const el=document.createElement('div');el.id='extracted-metrics';el.innerText=JSON.stringify(window.__APOLLO_STATE__);document.body.appendChild(el);}",
+  "wait_for_selector": "#extracted-metrics",
+  "timeout": 30000
+}
